@@ -36,7 +36,7 @@ identification](https://github.com/user-attachments/assets/4a1652ff-2767-40b3-84
 ## Work 1
 
 A significant contribution in the field comes from the study \"Dog Breed
-Identification Using Deep Learning\" as described by @ethan1. This
+Identification Using Deep Learning\". This
 research employs the ResNet-50 model, a deep convolutional neural
 network pre-trained on ImageNet and fine-tuned for the specific task of
 dog breed identification using transfer learning. This approach has
@@ -48,8 +48,7 @@ pre-trained models to specific fine-grained classification tasks.
 ## Work 2
 
 In 2019, Djordje Batic and Dubravko Culibrk conducted a study to
-identify individual dogs in photos on a social media platform. This
-study has been discussed in detail at @christina2. Their study combined
+identify individual dogs in photos on a social media platform. Their study combined
 transfer learning and object detection approaches on the Inception V3
 and SSD Inception V2 machine learning architectures. Batic and Culibrk
 took photos from, Pet2Net, a social platform used majorly for pet
@@ -59,7 +58,7 @@ individual dogs in unconstrained images.
 
 ## Work 3
 
-As documented in @christina3, a study by the Computer Engineering
+A study by the Computer Engineering
 Department of Kasetsart University explored the application of machine
 learning techniques to enhance dog grooming services . Utilizing the
 Stanford Dogs Dataset, the researchers trained a preliminary
@@ -78,7 +77,7 @@ breed classification.
 
 The ECTI association from Thailand conducted a test to analyze how well
 existing Convolutional Neural Networks (CNNs) machine learning models
-identify various dog breeds using the Stanford Dogs Data set at @Tim1.
+identify various dog breeds using the Stanford Dogs Data.
 The model uses different data processing techniques such as data
 augmentation and data processing to enhance the performance of the
 testing result. One of the key outcomes of this experiment shows that
@@ -92,7 +91,7 @@ dogs.
 
 A study from the School of Computing and Information Systems of the
 University of Melbourne developed a mobile application for dog breed
-detection and recognition based on deep learning as recorded in @lyla1.
+detection and recognition based on deep learning.
 This work uses a CNN-based method to detect dogs in complex images and
 identify the breed of those dogs. Researchers collected five thousand
 images of dogs with breed labels as the training dataset. Multiple
@@ -121,8 +120,7 @@ splitting was when members tried to visualize the images along with
 their labels, it was found that the labels for dogs of certain breeds
 were swapped. For instance, all photos of Samoyeds were labelled as
 golden retrievers, which led to potential inaccuracy in our model. After
-investigating the structure of DatasetFolder on Git Hub @christina5
-@christina6, team members manually modified our datasets' classes and
+investigating the structure of DatasetFolder on Git Hub, team members manually modified our datasets' classes and
 class_to_index variables to solve this issue. Figure 2 visualizes some
 sample images along with their labels from our team's final training
 dataset.
@@ -132,7 +130,7 @@ labels](https://github.com/user-attachments/assets/7bcecf19-6e8a-466e-896a-bfda8
 )
 
 Another crucial step in the team's data refining process was the
-implementation of the single shot detection method (SSD) @Tim2, which
+implementation of the single shot detection method (SSD), which
 can identify and separate the dog object from given images. This highly
 enhances the model's accuracy by removing noise from the image. For
 example, when a dog and a person are in the same frame, the image will
@@ -154,7 +152,7 @@ a diverse representation of dog breeds.
 # Architecture
 
 The architecture of the team's final model included helper functions
-referenced from @Tim4. In order to perform dog breed classification,
+referenced from github. In order to perform dog breed classification,
 Alexnet was chosen due to its effectiveness in image recognition tasks.
 The modified Alexnet architecture begins with an input layer designed to
 accept images of size 224 \[Length\] x 224 \[Height\] x 3 \[RGB\]. It
@@ -274,7 +272,7 @@ section 4.0, which greatly optimized this problem.
 The second method was to test the model on an entirely new dataset. As
 the model was initially trained using the Stanford dogs dataset
 containing 120 dog breeds and 20,580 images, the TsingHua dogs dataset
-@Tim3 (Figure 12) with 130 dog breeds and more than 70000 images is now
+(Figure 12) with 130 dog breeds and more than 70000 images is now
 introduced. This dataset was completely new to the model, providing a
 thorough test to its abilities. Due to dataset structure differences, a
 small portion where both data sets have in common was selected for
@@ -293,7 +291,7 @@ The model demonstrates high performance with a testing accuracy of 85.69
 percent. Moreover, the model's performance on unseen data reached a high
 accuracy of 75.5 percent. Not only does this accuracy surpass our team's
 baseline model, simpleCNN, by 65.59 percent, it also exceeds the 78
-percent testing accuracy reported by @Tim1 in one of the studies
+percent testing accuracy reported in one of the studies
 mentioned previously in section 3.4. This result indicates that the
 team's modifications on the AlexNet architecture, along with the data
 processing methods significantly improved a model's ability to
@@ -338,7 +336,7 @@ addition, our design's misidentifications might increase people's
 obsession with pedigree dogs over mixed breed dogs. This obsession could
 lead to animal breeding, which in some cases violates the animal
 integrity of the dogs being bred, and creates genetic problems in some
-dog breeds as described in @christina4. On top of that, overly focusing
+dog breeds. On top of that, overly focusing
 on dogs' breeds could lead to neglecting individual dog's behavioural
 needs. Dog owners might treat their dogs according to a certain breed's
 stereotypical behavioural features rather than observing their own dog's
